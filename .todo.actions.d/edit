@@ -1,6 +1,7 @@
 #!/bin/bash
 
-$EDITOR="vim"
+EDITOR="vim"
+
 case $1 in
 "usage")
   echo "$(basename $0) [BASENAME]"
